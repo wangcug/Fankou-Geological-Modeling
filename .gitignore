@@ -1,0 +1,29 @@
+# Private geological and geophysical data (never commit)
+/data/
+/private_inputs/
+/outputs/
+*.shp
+*.shx
+*.dbf
+*.prj
+*.asc
+*.xlsx
+*.xls
+*.csv
+*.pkl
+*.pickle
+*.nc
+*.vtk
+*.vtu
+*.png
+*.jpg
+*.tif
+*.tiff
+
+# Python and notebook artifacts
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.DS_Store
